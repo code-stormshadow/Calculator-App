@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="https://use.fontawesome.com/8ff5413074.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="container">
+        <div id="titleDiv">
+            <h3 id="title">My VanillaJs Calculator</h3>
+        </div>
+        <div id="displayArea">
+            <span id="clear">C</span>
+            <span id="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></span>
+            <p id="answer"></p>
+        </div>
+        <div id="buttons">
+            <ul>
+                <li data-val = '9'>9</li>
+                <li data-val = '8'>8</li>
+                <li data-val = '7'>7</li>
+                <li data-val = '+'>+</li>
+                <li data-val = '6'>6</li>
+                <li data-val = '5'>5</li>
+                <li data-val = '4'>4</li>
+                <li data-val = '-'>-</li>
+                <li data-val = '3'>3</li>
+                <li data-val = '2'>2</li>
+                <li data-val = '1'>1</li>
+                <li data-val = '*'>*</li>
+                <li data-val = '.'>.</li>
+                <li data-val = '0'>0</li>
+                <li data-val = '='>=</li>
+                <li data-val = '/'>/</li>
+            </ul>
+            
+        </div>
+        <div id="foot">
+            <p id="footText">Note: To raise to power of, use **</p>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+        crossorigin="anonymous">
+  </script>
+    <script src="calculator.js"></script>
+</body>
+</html>
